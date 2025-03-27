@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbzWZ2ejIA78mcXVUz1-3Lb8vPINtkaRL3_SUKXbkvnt9bBHU2ASRjqDcgjhM7Kdkmb1SQ/exec"; // Reemplaza con tu URL de API
+const API_URL = "https://script.google.com/a/macros/upao.edu.pe/s/AKfycbx9BsoxHdGikM_DkNqVS0AaHcVTXTtisfMNKtMCUPSZQCbyb8ZO3pp1brL7Uzfc31aleQ/exec"; // Reemplaza con tu URL de API
 
 document.addEventListener("DOMContentLoaded", function () {
     // Asegúrate de que el botón con id loginBtn esté presente en el DOM
