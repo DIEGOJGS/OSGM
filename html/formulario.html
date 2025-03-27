@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Estado de Ambientes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <h1>Control de Estado de Ambientes</h1>
+    
+    <form id="formulario">
+        <div>
+            <label for="aforo">Aforo (Rótulo):</label>
+            <input type="text" id="aforo" placeholder="Ej. 30" required>
+        </div>
+
+        <div>
+            <label for="aula">Aula / Lab / Auditorío:</label>
+            <input type="text" id="aula" placeholder="Ej. Aula 101" required>
+        </div>
+
+        <div id="categorias-container">
+            <!-- Las categorías se generarán dinámicamente aquí -->
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
